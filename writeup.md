@@ -1,8 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+## Writeup
 
 ---
 
@@ -12,10 +10,6 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
 
 ---
 
@@ -33,11 +27,11 @@ After that, I used the weight of each line to make it more or less effective in 
 
 ...
 
-![Original Image][image1]: ./test_images/solidWhiteCurve.jpg
-![Canny Output][image1]: ./test_images/output_cannyEdges_solidWhiteCurve.jpg
-![Interested region][image1]: ./test_images/output_interestEdges_solidWhiteCurve.jpg
-![Hough Output][image1]: ./test_images/output_hough_solidWhiteCurve.jpg
-![final output][image1]: ./test_images/output_solidWhiteCurve.jpg
+<img src="test_images/solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images/output_cannyEdges_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images/output_interestEdges_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images/output_hough_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images/output_solidWhiteCurve.jpg" width="480" alt="Combined Image" />
 
 
 ### 2. Potential shortcomings with my current pipeline
